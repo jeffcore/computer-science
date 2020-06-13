@@ -1,65 +1,6 @@
 # this is first time attemps at coding challenges - not the best code 
 
 
-def twoSum(nums, target):
-    """
-    :type nums: List[int]
-    :type target: int
-    :rtype: List[int]
-    """
-    if nums is None or nums == [] or len(nums) <= 1:
-        return False
-    for i in range(0, len(nums)):
-        for j in range(i+1, len(nums)):
-            if nums[i] + nums[j] == target:
-                return [i, j]
-
-print(twoSum([2, 7, 11, 15], 9))
-print(twoSum(None, 9))
-print(twoSum([], 9))
-print(twoSum([2], 9))
-
-print(twoSum([2, 5, 5, 11], 10))
-print(twoSum([2, 5, 5, 11], 13))
-print(twoSum([2, 5, 5, 11], 16))
-
-# other solution  - gets first number
-def twoSum2(nums, target):
-    if nums is None or nums == [] or len(nums) <= 1:
-        return False
-    temp_dict = {}
-    for i in range(0, len(nums)):
-    # gets first number if it is in the buff_dict return
-    # else subtract current number from target add to buff dict            
-    if nums[i] in temp_dict:
-        return [temp_dict[nums[i]], i]
-    temp_dict[target - nums[i]] = i
-
-print(twoSum2([2, 7, 11, 15], 9))
-print(twoSum2(None, 9))
-print(twoSum2([], 9))
-print(twoSum([2], 9))
-
-print(twoSum2([2, 5, 5, 11], 10))
-print(twoSum2([2, 5, 5, 11], 13))
-print(twoSum2([2, 5, 5, 11], 16))
-
-def twoSumsBool(nums, target):
-    set_nums = set()
-
-    for i in range(0, len(nums)):       
-        if nums[i] in set_nums:
-            return True
-        else:
-            set_nums.add(target - nums[i])
-    print(set_nums)
-    return False
-print('twosums bool')
-print(twoSumsBool([1, 2, 3, 9], 5))
-
-
-
-
 # REVERSE INTEGER
 
 def reverse(x):

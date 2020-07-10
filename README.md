@@ -12,4 +12,4 @@
 * geeksforgeeks
 * Element of Programming Interviews in Python Book
 
-Disclaimer: All referenced code is use for my educational purposes only. Please subscribe or purchase cooresponding materials from the above references.
+Disclaimer: All referenced code is use for my educational purposes only. Please subscribe or purchase corresponding materials from the above references.

@@ -1,6 +1,8 @@
 # Computer Science Practice
 
-### Contains code and notebooks covering basic computer science and coding interview prep. 
+Contains code and notebooks covering basic computer science and coding interview prep. 
+
+**Work In Progress**
 
 ## References and Shared Code:
 * Grokking the Coding Interiew Course 

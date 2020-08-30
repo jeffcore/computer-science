@@ -5,7 +5,7 @@ Contains code and notebooks covering basic computer science and coding interview
 **Work In Progress**
 
 ## References and Shared Code:
-* Grokking the Coding Interiew Course 
+* Grokking the Coding Interview Course 
 * Real World Algorithims Book
 * Algorithms and Data Structures Course Udacity
 * LeetCode
@@ -14,4 +14,4 @@ Contains code and notebooks covering basic computer science and coding interview
 * geeksforgeeks
 * Element of Programming Interviews in Python Book
 
-Disclaimer: All referenced code is use for my educational purposes only. Please subscribe or purchase corresponding materials from the above references.
+Disclaimer: All referenced code is used for my educational purposes only. Please subscribe or purchase corresponding materials from the above references.
